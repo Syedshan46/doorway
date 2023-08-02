@@ -2,14 +2,8 @@
      $(window).scroll(function(){
          var scroll = $(window).scrollTop();
          if (scroll > 800) {
-           $(".navbar").css("background" , "whitesmoke");  
-           $('.navbar-brand').css("color", "#333")
-           $('.icon-bar').css("background", "#333")
 
          } else {
-           $(".navbar").css("background" , "rgba(255, 255, 255, 0.146)");
-           $('.navbar-brand').css("color", "white")
-           $('.icon-bar').css("background", "white")
          }
      })
    })

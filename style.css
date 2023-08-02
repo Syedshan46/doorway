@@ -9,13 +9,14 @@
   .navbar {
       box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
       transition: all 2s;
+      background-color: rgba(0, 0, 0, 0.155);
   }
 
   .nav-link {
       font-weight: 600;
       cursor: pointer;
       margin-inline-end: 15px;
-      color: #333;
+      color: white;
   }
 
   .nav-link:hover {
